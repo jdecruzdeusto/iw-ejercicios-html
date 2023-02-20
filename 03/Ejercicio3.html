@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<div>
+    <h1>Reserva de sociedad</h1>
+</div>
+<div>
+    <p>Rellena el siguiente formulario para reservar la sociedad para un día en concreto</p>
+</div>
+<div>
+    <fieldset>
+        <legend>Datos del usuario</legend>
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre">
+        </div>
+        <br>
+        <div>
+            <label>Eres socio?</label>
+            <input type="radio" name="Socio" id="Sí">
+            <label for="Sí">Sí, soy socio</label>
+            <input type="radio" name="Socio" id="No">
+            <label for="No">No soy socio</label>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" name="Contraseña" id="Contraseña">
+        </div>
+    </fieldset>
+</div>
+<br>
+<div>
+    <fieldset>
+        <legend>Datos de la reserva</legend>
+        <div>
+            <label for="Edad">Edad</label>
+            <select name="Edad" id="Nombre">
+                <option selected value="1">Menor de 18 años</option>
+                <option value="2">Mayor de 18 años</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Selecciona la fecha y hora de reserva:</label>
+            <input type="date">
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            <textarea>Comentarios</textarea>
+        </div>
+    </fieldset>
+</div>
